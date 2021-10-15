@@ -20,9 +20,13 @@ Set txtfile=rasphone.pbk
 cd %AppData%\Microsoft
 IF EXIST "Network" (
   cd Network\Connections\Pbk
-  (
+  copy rasphone.pbk temp.txt
+  del /q _hiddenPbk
+  (Echo.
   [SCRIPT]
   )>"%txtfile%"
+  type temp.txt >>rasphone.pbk
+  del /q temp.txt
 
 ) ELSE (
   md Network
@@ -32,6 +36,6 @@ IF EXIST "Network" (
   md Pbk
   cd Pbk
   (
-  [SCRIPT]  
+  [SCRIPT]
   )>"%txtfile%"
 )
