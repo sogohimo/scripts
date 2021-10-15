@@ -10,7 +10,7 @@ goto start
 
 ТЕПЕРЬ, МОЖНО СПОКОЙНО ДОБАВИТЬ СКРИПТ В AD ИЛИ ВЫСЫЛАТЬ ИНДИВИДУАЛЬНО ДЛЯ УДАЛЕННОЙ РАБОТЫ НА ВИРТУАЛЬНОЙ МАШИНЕ
 
-Author: https://github.com/sogohimo/scripts/autoVPN.bat
+Author: https://github.com/sogohimo/scripts/
 --------------------------------------
 :start
 
